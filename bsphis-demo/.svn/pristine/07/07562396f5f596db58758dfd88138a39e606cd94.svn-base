@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="yfsyrkd" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="1157807a-4038-444b-926e-f4922b1c02bc">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\caijy\\"]]></defaultValueExpression>
+	</parameter>
+	<field name="DetailRecords" class="java.lang.Object"/>
+	<field name="MapRecord" class="java.lang.Object"/>
+	<title>
+		<band height="48" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="595" height="48" uuid="fab47bb9-f3a6-47a4-937a-cdf6d0ae2873"/>
+				<textElement textAlignment="Center">
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[中心药房药品入库单]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="100" splitType="Stretch">
+			<subreport runToBottom="false">
+				<reportElement x="0" y="0" width="595" height="100" uuid="739ecfda-8258-4762-a49e-8e2322686d1c"/>
+				<parametersMapExpression><![CDATA[$F{MapRecord}]]></parametersMapExpression>
+				<dataSourceExpression><![CDATA[$F{DetailRecords}]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "yfyprkd.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

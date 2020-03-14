@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<applications xmlns="http://www.wabacus.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.wabacus.com ../xsd/wabacus.applications.xsd">
+	<page id="crosslist">
+		<report id="report1" title="科室费用统计" dataexport="richexcel" type="crosslist">
+			<display>
+				<col column="ksdm" label="科室" filter="true" filterwidth="120px"
+					clickorderby="true">
+				</col>
+				<col column="fygb" realvalue="fygb" staticondition="fygb=#data#"
+					dataset="select distinct fygb,sfmc from ms_cf02 a,gy_sfxm b where a.fygb=b.sfxm order by fygb">
+					<statistic id="static1" type="sum" column="hjje" 
+						valuestyleproperty="align='center'" />
+				</col>
+			</display>
+			<sql>
+				<value>
+					<![CDATA[select a.ksdm,(#dynamic-columns#) from ms_cf01 a,ms_cf02 b where a.cfsb=b.cfsb and a.jgid='330106001' and {#condition#} group by a.ksdm  order by a.ksdm]]>
+				</value>
+			</sql>
+
+		</report>
+	</page>
+</applications>

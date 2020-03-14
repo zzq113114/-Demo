@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="yfyprkd" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="bc6ce9f4-70d5-4f15-984d-58207682325a">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="JGMC" class="java.lang.String"/>
+	<parameter name="RKFS" class="java.lang.String"/>
+	<parameter name="RKRQ" class="java.lang.String"/>
+	<parameter name="BZ" class="java.lang.String"/>
+	<parameter name="DH" class="java.lang.String"/>
+	<field name="YPMC" class="java.lang.String"/>
+	<field name="YFGG" class="java.lang.String"/>
+	<field name="YFDW" class="java.lang.String"/>
+	<field name="YPSL" class="java.lang.String"/>
+	<field name="JHJG" class="java.lang.String"/>
+	<field name="JHJE" class="java.lang.String"/>
+	<field name="LSJG" class="java.lang.String"/>
+	<field name="LSJE" class="java.lang.String"/>
+	<field name="YPPH" class="java.lang.String"/>
+	<field name="YPXQ" class="java.lang.String"/>
+	<field name="CDMC" class="java.lang.String"/>
+	<title>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement x="362" y="0" width="214" height="38" uuid="1ba8aa15-5a8f-4cea-8827-3758ac37a3b5"/>
+				<textElement>
+					<font size="24"/>
+				</textElement>
+				<text><![CDATA[药品入库单]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="73" y="0" width="289" height="38" uuid="84325095-00df-4d94-8676-9151b35c121e"/>
+				<textElement textAlignment="Right">
+					<font size="24"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{JGMC}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="18" y="25" width="55" height="20" uuid="9e32fd97-a4f7-4c16-b6d7-8d718497e6de"/>
+				<text><![CDATA[入库方式:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="73" y="25" width="77" height="20" uuid="3582fc55-bbf8-46a1-ab67-d60bb83a9e28"/>
+				<textFieldExpression><![CDATA[$P{RKFS}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="164" y="25" width="57" height="20" uuid="9110721d-ce6d-44d3-9959-7a73f3bd8ddb"/>
+				<text><![CDATA[入库日期:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="221" y="25" width="121" height="20" uuid="289353a1-e864-4167-b0f7-b00c6f018b43"/>
+				<textFieldExpression><![CDATA[$P{RKRQ}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="342" y="25" width="40" height="20" uuid="c862e5c4-3705-4b90-b925-083c2a4eb6d9"/>
+				<text><![CDATA[备注:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="382" y="25" width="100" height="20" uuid="36670ab7-b08b-419b-a467-697dbb6a5483"/>
+				<textFieldExpression><![CDATA[$P{BZ}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="493" y="0" width="26" height="20" uuid="6e47e234-3b03-4bef-a97b-34f21fa53126"/>
+				<text><![CDATA[NO.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="519" y="0" width="76" height="20" uuid="f64ac78f-3d45-4abc-87dd-d899fcfca762"/>
+				<textFieldExpression><![CDATA[$P{DH}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="502" y="25" width="17" height="20" uuid="bd18799c-7d61-4da4-b51a-e50384154cc9"/>
+				<text><![CDATA[第]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="519" y="25" width="17" height="20" uuid="8fbbfffd-eea3-43db-b57d-740f932bf8a8"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="536" y="25" width="12" height="20" uuid="3bb07407-3f75-4f92-866c-92560c67036d"/>
+				<text><![CDATA[页]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="548" y="25" width="17" height="20" uuid="418fda16-427d-4403-98d6-0619cf87cc16"/>
+				<text><![CDATA[/共]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement x="565" y="25" width="17" height="20" uuid="69a90abb-ad0a-43f9-a562-f9dc576fceab"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="582" y="25" width="12" height="20" uuid="97e589b9-e9a7-4394-9372-f26295e73fcd"/>
+				<text><![CDATA[页]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="124" height="40" uuid="d0d11b79-eb62-44cc-af9c-c05c314caf1b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[药品名称]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="124" y="0" width="41" height="40" uuid="7d6aae47-6240-451f-a3af-65dcf5a13ee9"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[规格]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="165" y="0" width="30" height="40" uuid="7e80aedb-2855-42e6-a7c0-41fb190e206b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[单位]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="195" y="0" width="58" height="40" uuid="f72ad6b0-8ab0-4860-b701-ca202a82d2a0"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[数量]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="0" width="80" height="20" uuid="3242fde3-115c-4664-ad78-37ee7b80127b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[进货]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="253" y="20" width="40" height="20" uuid="3eb67412-855f-4ce5-b5eb-d8324b56d85e"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[价格]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="293" y="20" width="40" height="20" uuid="127fe418-20b3-4a5d-89b6-f8283bfe6357"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[总值]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="0" width="80" height="20" uuid="5ad6f032-204f-4109-9459-b21a396f0e28"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[零售]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="333" y="20" width="40" height="20" uuid="5b85b7e8-b53c-4953-bfa4-a2c63cb2dd30"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[价格]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="373" y="20" width="40" height="20" uuid="d7cc84ec-7c21-4b9a-ba79-406512b0a74b"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[总值]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="413" y="0" width="40" height="40" uuid="ca6f7426-5dc9-438e-b5eb-f0cf4dcc3738"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[批号]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="0" width="46" height="40" uuid="4c608236-557b-4c97-80f3-fb86cc3ec7f9"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[效期]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="499" y="0" width="95" height="40" uuid="377130a0-d230-4ef3-8c53-44ad65b38eb2"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[产地]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="124" height="20" uuid="d9a0888c-261f-4413-a6f5-bf133c1f198e"/>
+				<box>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{YPMC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="124" y="0" width="40" height="20" uuid="8b0325c2-c66f-4609-8d29-e5c409a9c62a"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{YFGG}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="165" y="0" width="30" height="20" uuid="692665cc-cc7a-436f-bae1-0bd643822db7"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{YFDW}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="195" y="0" width="58" height="20" uuid="42bddaad-ebd5-4b50-854f-e7d803a062ec"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{YPSL}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="253" y="0" width="40" height="20" uuid="335583a5-e158-489f-80ae-38cc14997dff"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{JHJG}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="293" y="0" width="40" height="20" uuid="e93102da-bb9a-4199-8a8f-7f779d815b0e"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{JHJE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="333" y="0" width="40" height="20" uuid="5932da7c-8f92-4d40-807a-ec639c5326d5"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{LSJG}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="373" y="0" width="40" height="20" uuid="b9d8dcf6-a5aa-4681-bc3f-e28a310e5619"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{LSJE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="413" y="0" width="40" height="20" uuid="ddf84b9d-ad5c-4246-beb5-3f6b36993edc"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{YPPH}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="453" y="0" width="46" height="20" uuid="2dcd5df1-562e-4da5-a823-09e74f641d10"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{YPXQ}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="499" y="0" width="95" height="20" uuid="8aaa6a46-6791-498e-b6f9-88441bf20a6f"/>
+				<box>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{CDMC}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

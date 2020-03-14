@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ssdev-esb="http://www.bsoft.com.cn/schema/ssdev-esb"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+		http://www.springframework.org/schema/beans/spring-beans.xsd   
+		http://www.bsoft.com.cn/schema/ssdev-esb 	
+		http://www.bsoft.com.cn/schema/ssdev-esb/ssdev-esb.xsd">
+
+	<bean id="abstractWsService" class="phis.source.ws.AbstractWsService"
+		abstract="true">
+		<property name="sessionFactory" ref="mySessionFactory" />
+	</bean>
+	<!-- <bean id="abstractEsbDispatcher" class="phis.source.ws.AbstractEsbDispatcher"
+		abstract="true">
+	</bean>-->
+	<!-- <bean id="getEmpiIdService" class="chis.source.ws.GetEmpiIdService" 
+		parent="abstractWsService"> <property name="pixProxy" ref="pixProxy" /> </bean> -->
+
+	<bean id="WebServiceEntry" class="phis.source.ws.WebServiceEntry">
+	</bean>
+	<bean id="testWsService" class="phis.source.ws.TestWsService"
+		parent="abstractWsService"/>
+
+	<ssdev-esb:protocol id="phis.wsEntry1" port="12304"  protocol="webservice" ref="WebServiceEntry" />
+</beans>

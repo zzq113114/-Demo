@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<organ id="3301" name="杭州市卫生局" type="R" ref="3301" pyCode="hzswsj">
+    <properties>
+	    <p name="appwelcome">true</p>  <!-- 一级菜单欢迎界面显示设置 -->
+	    <p name="sysMessage">true</p> <!-- 配置首页消息系统是否启用 -->
+	    <p name="instantExtractMSG">false</p><!-- 配置首页消息系统是否即时提取消息 -->
+	    <p name="myDesktop">platform.script.viewport.MyDesktop</p>
+	</properties>
+	<installedApps>
+    	<app id="platform.index.index"/>
+    	<app id="platform.mpi.MPI"/>
+    	<app id="platform.transport.TRANSPORT"/>
+    	<app id="platform.dataset.DATASET"/>
+    	<app id="platform.security.SECURITY"/>
+    	<app id="platform.monitor.MONITOR"/>
+    	<app id="platform.seq.SEQ"/>
+   	 	<app id="platform.reg.REG"/>
+	</installedApps>
+</organ>

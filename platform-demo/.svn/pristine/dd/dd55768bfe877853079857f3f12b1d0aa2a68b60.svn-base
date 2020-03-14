@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ssdev-platform">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="ssdev-mvc-2.3.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssdev-mvc/ssdev-mvc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ssdev-core-2.3.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssdev-core/ssdev-core">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ssdev-rpc-2.3.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssdev-rpc/ssdev-rpc">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ssdev-keymaker-2.3.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssdev-keymaker/ssdev-keymaker">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ssdev-utils-2.3.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssdev-utils/ssdev-utils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ssdev-ws-2.3.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ssdev-ws/ssdev-ws">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/ssdev-platform/src/main/webapp/src/main/resources"/>
+        <property name="context-root" value="/platform"/>
+    </wb-module>
+</project-modules>

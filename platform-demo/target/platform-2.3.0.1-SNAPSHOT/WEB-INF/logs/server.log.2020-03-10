@@ -1,0 +1,373 @@
+[2020-03-10 23:28:02,712][INFO][DispatcherServlet] FrameworkServlet 'springServlet': initialization started
+[2020-03-10 23:28:02,740][INFO][XmlWebApplicationContext] Refreshing WebApplicationContext for namespace 'springServlet-servlet': startup date [Tue Mar 10 23:28:02 CST 2020]; root of context hierarchy
+[2020-03-10 23:28:02,803][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [ctd/mvc/controller/spring-mvc.xml]
+[2020-03-10 23:28:02,921][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [ctd/util/exp/spring-expr-base.xml]
+[2020-03-10 23:28:02,983][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [ctd/util/context/spring-context.xml]
+[2020-03-10 23:28:03,035][INFO][ClassPathBeanDefinitionScanner] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+[2020-03-10 23:28:03,284][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring.xml]
+[2020-03-10 23:28:03,329][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring-hibernate.xml]
+[2020-03-10 23:28:03,350][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring-service.xml]
+[2020-03-10 23:28:03,529][INFO][ZooKeeper] Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+[2020-03-10 23:28:03,531][INFO][ZooKeeper] Client environment:host.name=172.20.10.6
+[2020-03-10 23:28:03,531][INFO][ZooKeeper] Client environment:java.version=1.7.0_80
+[2020-03-10 23:28:03,531][INFO][ZooKeeper] Client environment:java.vendor=Oracle Corporation
+[2020-03-10 23:28:03,531][INFO][ZooKeeper] Client environment:java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/jre
+[2020-03-10 23:28:03,531][INFO][ZooKeeper] Client environment:java.class.path=/Volumes/FileHome/tomcat/apache-bs-platform-tomcat-7.0.96/bin/bootstrap.jar:/Volumes/FileHome/tomcat/apache-bs-platform-tomcat-7.0.96/bin/tomcat-juli.jar
+[2020-03-10 23:28:03,532][INFO][ZooKeeper] Client environment:java.library.path=/Users/zhangzhenqing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+[2020-03-10 23:28:03,533][INFO][ZooKeeper] Client environment:java.io.tmpdir=/Volumes/FileHome/tomcat/apache-bs-platform-tomcat-7.0.96/temp
+[2020-03-10 23:28:03,534][INFO][ZooKeeper] Client environment:java.compiler=<NA>
+[2020-03-10 23:28:03,535][INFO][ZooKeeper] Client environment:os.name=Mac OS X
+[2020-03-10 23:28:03,535][INFO][ZooKeeper] Client environment:os.arch=x86_64
+[2020-03-10 23:28:03,535][INFO][ZooKeeper] Client environment:os.version=10.14.3
+[2020-03-10 23:28:03,535][INFO][ZooKeeper] Client environment:user.name=zhangzhenqing
+[2020-03-10 23:28:03,535][INFO][ZooKeeper] Client environment:user.home=/Users/zhangzhenqing
+[2020-03-10 23:28:03,535][INFO][ZooKeeper] Client environment:user.dir=/Volumes/FileHome/tomcat/apache-bs-platform-tomcat-7.0.96/bin
+[2020-03-10 23:28:03,537][INFO][ZooKeeper] Initiating client connection, connectString=111.229.217.35:2181 sessionTimeout=10000 watcher=ctd.util.store.support.ZooKeeperActiveStore@4f7c9c6a
+[2020-03-10 23:28:03,583][INFO][ClientCnxn] Opening socket connection to server 111.229.217.35/111.229.217.35:2181. Will not attempt to authenticate using SASL (unknown error)
+[2020-03-10 23:28:03,595][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring-key.xml]
+[2020-03-10 23:28:03,620][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring-configur.xml]
+[2020-03-10 23:28:03,645][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring-schedule.xml]
+[2020-03-10 23:28:03,684][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [platform/spring/spring-freemarker.xml]
+[2020-03-10 23:28:03,709][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcDictionaryLoader': replacing [Generic bean: class [ctd.mvc.controller.support.DictionaryLoader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/DictionaryLoader.class]] with [Generic bean: class [ctd.mvc.controller.support.DictionaryLoader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,710][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcLogonManager': replacing [Generic bean: class [ctd.mvc.controller.support.LogonManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/LogonManager.class]] with [Generic bean: class [platform.source.service.base.PlatformLogonManager]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,711][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcSchemaLoader': replacing [Generic bean: class [ctd.mvc.controller.support.SchemaLoader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/SchemaLoader.class]] with [Generic bean: class [ctd.mvc.controller.support.SchemaLoader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,719][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcScriptLoader': replacing [Generic bean: class [ctd.mvc.controller.support.ScriptLoader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/ScriptLoader.class]] with [Generic bean: class [ctd.mvc.controller.support.ScriptLoader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,721][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcSWFLoader': replacing [Generic bean: class [ctd.mvc.controller.support.SWFLoader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/SWFLoader.class]] with [Generic bean: class [ctd.mvc.controller.support.SWFLoader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,722][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcStaticResourceLoader': replacing [Generic bean: class [ctd.mvc.controller.support.StaticResourceLoader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/StaticResourceLoader.class]] with [Generic bean: class [ctd.mvc.controller.support.StaticResourceLoader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,735][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcPhotoLoader': replacing [Generic bean: class [ctd.mvc.controller.support.PhotoLoader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/PhotoLoader.class]] with [Generic bean: class [ctd.mvc.controller.support.PhotoLoader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,737][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcPhotoUpload': replacing [Generic bean: class [ctd.mvc.controller.support.PhotoUpload]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/PhotoUpload.class]] with [Generic bean: class [ctd.mvc.controller.support.PhotoUpload]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,739][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'mvcFileUpload': replacing [Generic bean: class [ctd.mvc.controller.support.FileUploader]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Volumes/FileHome/extjstest/platform-demo/target/platform-2.3.0.1-SNAPSHOT/WEB-INF/lib/ssdev-mvc-2.3.0.1-SNAPSHOT.jar!/ctd/mvc/controller/support/FileUploader.class]] with [Generic bean: class [ctd.mvc.controller.support.FileUploader]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring.xml]]
+[2020-03-10 23:28:03,744][INFO][ClientCnxn] Socket connection established to 111.229.217.35/111.229.217.35:2181, initiating session
+[2020-03-10 23:28:03,750][INFO][XmlBeanDefinitionReader] Loading XML bean definitions from class path resource [ctd/net/rpc/subscribe/store/spring-metaq.xml]
+[2020-03-10 23:28:03,800][INFO][DefaultListableBeanFactory] Overriding bean definition for bean 'messageCenter': replacing [Generic bean: class [ctd.util.message.MessageCenter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [platform/spring/spring-service.xml]] with [Generic bean: class [ctd.util.message.MessageCenter]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [ctd/net/rpc/subscribe/store/spring-metaq.xml]]
+[2020-03-10 23:28:03,976][INFO][ClientCnxn] Session establishment complete on server 111.229.217.35/111.229.217.35:2181, sessionid = 0x170c50e763b0001, negotiated timeout = 10000
+[2020-03-10 23:28:04,214][INFO][ServiceRegistry] registry is running,connected to server[111.229.217.35:2181]
+[2020-03-10 23:28:04,682][INFO][ServiceRegistry] serverNode[172.20.10.6:8080] deployed for domain[platform]
+[2020-03-10 23:28:04,897][INFO][DefaultListableBeanFactory] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44fe6b85: defining beans [expr_set_base,exprProcessor,topContext,staticContext,mvcAppModuleDefineLoader,mvcChartLoader,mvcDictionaryLoader,fileDownload,mvcFileUpload,mvcHTMLTemplateLoader,mvcJSONRequester,mvcLogonManager,mvcPhotoLoader,mvcPhotoUpload,mvcPrintLoader,mvcReloadAllController,mvcRESTDataLoader,mvcSchemaLoader,mvcScriptLoader,mvcSSOHtmlloader,mvcStaticResourceLoader,mvcSWFLoader,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,mvcRemoteResourceLoader,resourceCenter,dataSource,mySessionFactory,$domain-application,messageCenter,protocol@ws,roleController,roleWatcher,platform.roleWatcher,remoteRoleLoader,platform.remoteRoleLoader,userController,userWatcher,platform.userWatcher,remoteUserLoader,platform.remoteUserLoader,organController,organWatcher,platform.organWatcher,remoteOrganLoader,platform.remoteOrganLoader,tableDicLoader,platform.tableDicLoader,schemaController,schemaWatcher,platform.schemaWatcher,remoteSchemaLoader,platform.remoteSchemaLoader,dictionaryController,dictionaryWatcher,platform.dictionaryWatcher,remoteDictionaryLoader,platform.remoteDictionaryLoader,applicationController,applicationWatcher,platform.applicationWatcher,remoteApplicationLoader,platform.remoteApplicationLoader,categoryNodeController,categoryNodeWatcher,platform.categoryNodeWatcher,remoteCategoryNodeLoader,platform.remoteCategoryNodeLoader,printLocalLoader,printController,printWatcher,platform.printWatcher,remotePrintLoader,platform.remotePrintLoader,resourceLocator,platform.resourceLocator,daoService,platform.daoService,serviceProxy,platform.serviceProxy,personLoader,platform.personLoader,officeLoader,platform.officeLoader,organizationLoader,platform.organizationLoader,userLoader,platform.userLoader,dictionaryLoader,platform.dictionaryLoader,domainLoader,platform.domainLoader,dictionaryVerifyUploader,platform.dictionaryVerifyUploader,monitorInfoRPCServiceImpl,platform.monitorInfoRPCServiceImpl,dataElementLoader,platform.dataElementLoader,sysMessageLoader,platform.sysMessageLoader,xmlRemoteLoader,platform.xmlRemoteLoader,fileUpload,platform.fileUpload,logonInfoLoader,platform.logonInfoLoader,empiService,platform.empiService,ctd.sequence.KeyManager#0,platform.organizationService,platform.roleConfig,platform.personnelService,platform.appConfig,platform.manageService,platform.organizTypeService,platform.userPropService,platform.userService,platform.domainConfig,platform.dicConfig,platform.schemaConfig,monitorRpcUpload,monInfoJobDetailBean,monInfoTrigger,scheduler,schedulerExecutor,freeMarkerConfigurer,ctd.domain.DomainUtil#0,defaultExecutor,hibernateSupportExecutor,executorFactory,dataElementDao,areaDao,daoFactory,simpleSave,simpleLoad,simpleLoadWithParentRelation,simpleRemove,simpleQuery,platform.simpleSave,platform.simpleLoad,platform.simpleLoadWithParentRelation,platform.simpleRemove,platform.simpleQuery,simpleReport,reportSchemaLoader,dataStandardSave,dataStandardRemove,platform.dataSetElementLoad,platform.dataElementLoad,platform.elementAndGroupQuery,dataSetCatalogSave,downloadDataSetZip,searchSet,dictionaryVerify,platform.parseExcel,platform.qualityData,message,activeNodeQuery,monInfo,sqlAndSerInfo,dictionaryUtil,welcomeService,quickService,settingService,tableDicRemoter,PlatformAspectLogon,metaqMessageSessionFactory,metaMessageBodyConverter,metaqTemplate,metaMessageStore,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2020-03-10 23:28:05,998][INFO][ProtocolBean] Webservice:http://0.0.0.0:9999/platform/WebServiceEntry?wsdl is published. with class com.bsoft.esb.ws.WebServiceEntry
+[2020-03-10 23:28:06,351][INFO][RequestMappingHandlerMapping] Mapped "{[/app/loadApp],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.AppModuleDefineLoader.LoadAppDefine(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,351][INFO][RequestMappingHandlerMapping] Mapped "{[/app/loadModule],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.AppModuleDefineLoader.LoadModuleDefine(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,352][INFO][RequestMappingHandlerMapping] Mapped "{[/**/{id}.chart],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.ChartLoader.doChartService(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,354][INFO][RequestMappingHandlerMapping] Mapped "{[/**/{id}.dic],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.DictionaryLoader.doLoad(java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,int,int,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,356][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.download],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.FileDownLoad.download(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,356][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.downloadCanRemoter],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.FileDownLoad.downloadCanRemoter(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,359][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.uploadForm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto protected void ctd.mvc.controller.support.FileUploader.fileUpload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+[2020-03-10 23:28:06,360][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.jshtml],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.HTMLTemplateLoader.load(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,364][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.jsonRequest],methods=[POST],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.JSONRequester.doJSONRequest(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,368][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/myApps],methods=[POST],params=[urt && uid && pwd && deep],headers=[],consumes=[],produces=[],custom=[]}" onto public void platform.source.service.base.PlatformLogonManager.loadAppDefines(java.lang.Integer,java.lang.String,java.lang.String,int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,368][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/publicKey],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.LogonManager.loadPublicKey(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,368][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/myApps],methods=[GET],params=[urt && deep],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.LogonManager.loadAppDefines(java.lang.Integer,int,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,369][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/myRoles],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.LogonManager.loadUserRoles(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,369][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/currentUrt],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.LogonManager.loadCurrentUrt(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,369][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/logonOff],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.LogonManager.logonOff(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,370][INFO][RequestMappingHandlerMapping] Mapped "{[/logon/extInfo],methods=[GET || POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.LogonManager.loadExtLogonInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,370][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.photo],methods=[GET],params=[img],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PhotoLoader.loadPhoto(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+[2020-03-10 23:28:06,371][INFO][RequestMappingHandlerMapping] Mapped "{[/uploadPhoto],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PhotoUpload.uploadPhoto(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,372][INFO][RequestMappingHandlerMapping] Mapped "{[/**/print_image],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PrintLoader.doPrintImage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,373][INFO][RequestMappingHandlerMapping] Mapped "{[/**/list.print],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PrintLoader.doListPrint(java.lang.Integer,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,373][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.print],methods=[HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PrintLoader.doPagesPrintHead(java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,374][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.print],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PrintLoader.doPagesPrint(java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,374][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.downloadPrint],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.PrintLoader.downloadPrint(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,375][INFO][RequestMappingHandlerMapping] Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.ReloadAllController.turnToIndex(javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,375][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.reset],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.ReloadAllController.reload(javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,375][INFO][RequestMappingHandlerMapping] Mapped "{[/data/{daoService}/{daoId}/get/{id}],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.RESTDataLoader.getEntityData(java.lang.String,java.lang.String,java.lang.Object,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,376][INFO][RequestMappingHandlerMapping] Mapped "{[/**/{id}.sc],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SchemaLoader.doLoad(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,377][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.js],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.ScriptLoader.loadScript(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,378][INFO][RequestMappingHandlerMapping] Mapped "{[/**/{clz}.jsc],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.ScriptLoader.loadScript(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,378][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.js],methods=[HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.ScriptLoader.ScriptFileHeadResponse(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,381][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.htm],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SSOHtmlLoader.loadHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,381][INFO][RequestMappingHandlerMapping] Mapped "{[/sso/autoLogon],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SSOHtmlLoader.loadUser(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,382][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.htm],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SSOHtmlLoader.doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException
+[2020-03-10 23:28:06,384][INFO][RequestMappingHandlerMapping] Mapped "{[/resources/**/*.css],methods=[HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.StaticResourceLoader.cssFileHeadResponse(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,385][INFO][RequestMappingHandlerMapping] Mapped "{[/resources/**/*.*],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.StaticResourceLoader.loadStaticFile(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,386][INFO][RequestMappingHandlerMapping] Mapped "{[/resources/**/*.css],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.StaticResourceLoader.loadCSSFile(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,386][INFO][RequestMappingHandlerMapping] Mapped "{[/resources/**/*.*],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.StaticResourceLoader.staticFilePostResponse(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,387][INFO][RequestMappingHandlerMapping] Mapped "{[/resources/**/*.*],methods=[HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.StaticResourceLoader.staticFileHeadResponse(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,389][INFO][RequestMappingHandlerMapping] Mapped "{[/**/{clz}.mswf],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SWFLoader.loadSWFModule(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,390][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.swf || /**/*.swz],methods=[HEAD],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SWFLoader.SWFFileHeadResponse(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,391][INFO][RequestMappingHandlerMapping] Mapped "{[/**/*.swf || /**/*.swz],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public void ctd.mvc.controller.support.SWFLoader.loadSWFFile(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[2020-03-10 23:28:06,821][INFO][SimpleUrlHandlerMapping] Mapped URL path [/**] onto handler 'org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0'
+[2020-03-10 23:28:09,136][INFO][DruidDataSource] {dataSource-1} inited
+[2020-03-10 23:28:09,936][INFO][Version] Hibernate Commons Annotations 3.2.0.Final
+[2020-03-10 23:28:09,943][INFO][Environment] Hibernate 3.6.9.Final
+[2020-03-10 23:28:09,945][INFO][Environment] hibernate.properties not found
+[2020-03-10 23:28:09,951][INFO][Environment] Bytecode provider name : javassist
+[2020-03-10 23:28:09,957][INFO][Environment] using JDK 1.4 java.sql.Timestamp handling
+[2020-03-10 23:28:10,165][INFO][ServiceRegistry] service[platform.roleWatcher] overwrited.
+[2020-03-10 23:28:10,488][INFO][ServiceRegistry] service[platform.roleWatcher] online.
+[2020-03-10 23:28:10,829][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:11,597][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:11,714][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:11,794][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:11,837][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,094][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,123][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,144][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,154][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,193][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,211][WARN][DTDEntityResolver] recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[2020-03-10 23:28:12,215][INFO][Configuration] Searching for mapping documents in jar: ssdev-core-2.3.0.1-SNAPSHOT.jar
+[2020-03-10 23:28:12,217][INFO][Configuration] Found mapping document in jar: mappings/BASE_ManageUnitType.hbm.xml
+[2020-03-10 23:28:12,240][INFO][Configuration] Found mapping document in jar: mappings/BASE_User.hbm.xml
+[2020-03-10 23:28:12,281][INFO][Configuration] Found mapping document in jar: mappings/BASE_UserRoles.hbm.xml
+[2020-03-10 23:28:12,417][INFO][HbmBinder] Mapping class: RES_DataSet -> RES_DataSet
+[2020-03-10 23:28:12,439][INFO][HbmBinder] Mapping class: RES_DataSetCatalog -> RES_DataSetCatalog
+[2020-03-10 23:28:12,441][INFO][HbmBinder] Mapping class: MPI_Certificate -> MPI_Certificate
+[2020-03-10 23:28:12,441][INFO][HbmBinder] Mapping class: gp.application.rel.schemas.REL_RelevanceDoctor -> REL_RelevanceDoctor
+[2020-03-10 23:28:12,448][INFO][HbmBinder] Mapping class: QualityData_ErrorNumb -> QualityData_ErrorNumb
+[2020-03-10 23:28:12,449][INFO][HbmBinder] Mapping class: SYS_MESSAGE -> SYS_MESSAGE
+[2020-03-10 23:28:12,452][INFO][HbmBinder] Mapping class: RES_DataElement -> RES_DataElement
+[2020-03-10 23:28:12,456][INFO][HbmBinder] Mapping class: PUB_CharacterEncoding -> PUB_CharacterEncoding
+[2020-03-10 23:28:12,472][INFO][HbmBinder] Mapping class: RES_DictionaryVerifyLog -> RES_DictionaryVerifyLog
+[2020-03-10 23:28:12,474][INFO][HbmBinder] Mapping class: RES_DataStandard -> RES_DataStandard
+[2020-03-10 23:28:12,477][INFO][HbmBinder] Mapping class: BASE_Role -> BASE_Role
+[2020-03-10 23:28:12,479][INFO][HbmBinder] Mapping class: SYS_Personnel -> sys_personnel
+[2020-03-10 23:28:12,483][INFO][HbmBinder] Mapping class: RES_DataSetContent -> RES_DataSetContent
+[2020-03-10 23:28:12,485][INFO][HbmBinder] Mapping class: MPI_Extension -> MPI_Extension
+[2020-03-10 23:28:12,485][INFO][HbmBinder] Mapping class: chis.application.per.schemas.PER_ProjectOffice -> PER_ProjectOffice
+[2020-03-10 23:28:12,487][INFO][HbmBinder] Mapping class: chis.application.per.schemas.PER_ComboDetail -> PER_ComboDetail
+[2020-03-10 23:28:12,488][INFO][HbmBinder] Mapping class: Test_Table -> Test_Table
+[2020-03-10 23:28:12,488][INFO][HbmBinder] Mapping class: YK_TYPK -> YK_TYPK
+[2020-03-10 23:28:12,489][INFO][HbmBinder] Mapping class: chis.application.mpm.schemas.MPM_MasterplateMaintain -> MPM_MasterplateMaintain
+[2020-03-10 23:28:12,490][INFO][HbmBinder] Mapping class: MPI_Card -> MPI_Card
+[2020-03-10 23:28:12,491][INFO][HbmBinder] Mapping class: QualityData_Error -> QualityData_Error
+[2020-03-10 23:28:12,492][INFO][HbmBinder] Mapping class: SYS_Quick -> SYS_Quick
+[2020-03-10 23:28:12,492][INFO][HbmBinder] Mapping class: SYS_Log4j -> SYS_log4j
+[2020-03-10 23:28:12,493][INFO][HbmBinder] Mapping class: SYS_HomePage -> SYS_HomePage
+[2020-03-10 23:28:12,493][INFO][HbmBinder] Mapping class: GY_JBBM -> GY_JBBM
+[2020-03-10 23:28:12,494][INFO][HbmBinder] Mapping class: SYS_Organization -> sys_organization
+[2020-03-10 23:28:12,496][INFO][HbmBinder] Mapping class: R_SLAVE -> R_SLAVE
+[2020-03-10 23:28:12,497][INFO][HbmBinder] Mapping class: chis.application.ag.schemas.EHR_AreaGrid -> EHR_AreaGrid
+[2020-03-10 23:28:12,497][INFO][HbmBinder] Mapping class: YK_BMZD -> YK_BMZD
+[2020-03-10 23:28:12,499][INFO][HbmBinder] Mapping class: SYS_PrivacyRules -> SYS_PrivacyRules
+[2020-03-10 23:28:12,500][INFO][HbmBinder] Mapping class: SYS_MessageLog -> SYS_MessageLog
+[2020-03-10 23:28:12,502][INFO][HbmBinder] Mapping class: chis.application.per.schemas.PER_CheckupDict -> PER_CheckupDict
+[2020-03-10 23:28:12,505][INFO][HbmBinder] Mapping class: SYS_Office -> SYS_Office
+[2020-03-10 23:28:12,506][INFO][HbmBinder] Mapping class: chis.application.per.schemas.PER_Combo -> PER_Combo
+[2020-03-10 23:28:12,507][INFO][HbmBinder] Mapping class: SYS_DOMAIN -> SYS_DOMAIN
+[2020-03-10 23:28:12,508][INFO][HbmBinder] Mapping class: MPI_ChildInfo -> MPI_ChildInfo
+[2020-03-10 23:28:12,508][INFO][HbmBinder] Mapping class: GY_SFXM -> GY_SFXM
+[2020-03-10 23:28:12,509][INFO][HbmBinder] Mapping class: RES_DataElementCategory -> RES_DataElementCategory
+[2020-03-10 23:28:12,510][INFO][HbmBinder] Mapping class: GY_BRXZ -> GY_BRXZ
+[2020-03-10 23:28:12,511][INFO][HbmBinder] Mapping class: MPI_Phone -> MPI_Phone
+[2020-03-10 23:28:12,511][INFO][HbmBinder] Mapping class: QualityData_Main -> QualityData_Main
+[2020-03-10 23:28:12,512][INFO][HbmBinder] Mapping class: SYS_AppLayout -> SYS_AppLayout
+[2020-03-10 23:28:12,513][INFO][HbmBinder] Mapping class: MPI_DemographicInfo -> MPI_DemographicInfo
+[2020-03-10 23:28:12,517][INFO][HbmBinder] Mapping class: RES_DataGroup -> RES_DataGroup
+[2020-03-10 23:28:12,517][INFO][HbmBinder] Mapping class: MPI_Address -> MPI_Address
+[2020-03-10 23:28:12,518][INFO][HbmBinder] Mapping class: BASE_ManageUnitType -> BASE_ManageUnitType
+[2020-03-10 23:28:12,519][INFO][HbmBinder] Mapping class: ctd.account.user.User -> BASE_User
+[2020-03-10 23:28:12,520][INFO][HbmBinder] Mapping class: ctd.account.UserRoleToken -> BASE_UserRoles
+[2020-03-10 23:28:12,539][INFO][Configuration] Hibernate Validator not found: ignoring
+[2020-03-10 23:28:12,551][INFO][LocalSessionFactoryBean] Building new Hibernate SessionFactory
+[2020-03-10 23:28:12,578][INFO][HibernateSearchEventListenerRegister] Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+[2020-03-10 23:28:12,590][INFO][ConnectionProviderFactory] Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+[2020-03-10 23:28:12,630][INFO][Dialect] Using dialect: org.hibernate.dialect.Oracle10gDialect
+[2020-03-10 23:28:12,643][INFO][JdbcSupportLoader] Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[2020-03-10 23:28:12,644][INFO][SettingsFactory] Database ->
+       name : Oracle
+    version : Oracle Database 11g Release 11.1.0.0.0 - Production
+      major : 11
+      minor : 1
+[2020-03-10 23:28:12,644][INFO][SettingsFactory] Driver ->
+       name : Oracle JDBC driver
+    version : 10.2.0.1.0XE
+      major : 10
+      minor : 2
+[2020-03-10 23:28:12,655][INFO][TransactionFactoryFactory] Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+[2020-03-10 23:28:12,656][INFO][TransactionManagerLookupFactory] No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+[2020-03-10 23:28:12,657][INFO][SettingsFactory] Automatic flush during beforeCompletion(): disabled
+[2020-03-10 23:28:12,657][INFO][SettingsFactory] Automatic session close at end of transaction: disabled
+[2020-03-10 23:28:12,657][INFO][SettingsFactory] JDBC batch size: 50
+[2020-03-10 23:28:12,658][INFO][SettingsFactory] JDBC batch updates for versioned data: disabled
+[2020-03-10 23:28:12,660][INFO][SettingsFactory] Scrollable result sets: enabled
+[2020-03-10 23:28:12,660][INFO][SettingsFactory] JDBC3 getGeneratedKeys(): disabled
+[2020-03-10 23:28:12,661][INFO][SettingsFactory] JDBC result set fetch size: 100
+[2020-03-10 23:28:12,661][INFO][SettingsFactory] Connection release mode: auto
+[2020-03-10 23:28:12,673][INFO][SettingsFactory] Default batch fetch size: 1
+[2020-03-10 23:28:12,680][INFO][SettingsFactory] Generate SQL with comments: disabled
+[2020-03-10 23:28:12,681][INFO][SettingsFactory] Order SQL updates by primary key: disabled
+[2020-03-10 23:28:12,681][INFO][SettingsFactory] Order SQL inserts for batching: disabled
+[2020-03-10 23:28:12,682][INFO][SettingsFactory] Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+[2020-03-10 23:28:12,686][INFO][ASTQueryTranslatorFactory] Using ASTQueryTranslatorFactory
+[2020-03-10 23:28:12,686][INFO][SettingsFactory] Query language substitutions: {}
+[2020-03-10 23:28:12,687][INFO][SettingsFactory] JPA-QL strict compliance: disabled
+[2020-03-10 23:28:12,687][INFO][SettingsFactory] Second-level cache: disabled
+[2020-03-10 23:28:12,687][INFO][SettingsFactory] Query cache: disabled
+[2020-03-10 23:28:12,687][INFO][SettingsFactory] Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+[2020-03-10 23:28:12,689][INFO][SettingsFactory] Optimize cache for minimal puts: disabled
+[2020-03-10 23:28:12,689][INFO][SettingsFactory] Structured second-level cache entries: disabled
+[2020-03-10 23:28:12,695][INFO][SettingsFactory] Echoing all SQL to stdout
+[2020-03-10 23:28:12,696][INFO][SettingsFactory] Statistics: disabled
+[2020-03-10 23:28:12,696][INFO][SettingsFactory] Deleted entity synthetic identifier rollback: disabled
+[2020-03-10 23:28:12,696][INFO][SettingsFactory] Default entity-mode: pojo
+[2020-03-10 23:28:12,697][INFO][SettingsFactory] Named query checking : enabled
+[2020-03-10 23:28:12,697][INFO][SettingsFactory] Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2020-03-10 23:28:12,739][INFO][SessionFactoryImpl] building session factory
+[2020-03-10 23:28:12,753][INFO][BasicTypeRegistry] Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@4cab8405
+[2020-03-10 23:28:12,755][INFO][BasicTypeRegistry] Type registration [blob] overrides previous : org.hibernate.type.BlobType@1ac479a8
+[2020-03-10 23:28:12,755][INFO][BasicTypeRegistry] Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1ac479a8
+[2020-03-10 23:28:12,756][INFO][BasicTypeRegistry] Type registration [clob] overrides previous : org.hibernate.type.ClobType@6d7b1050
+[2020-03-10 23:28:12,757][INFO][BasicTypeRegistry] Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@6d7b1050
+[2020-03-10 23:28:12,757][INFO][BasicTypeRegistry] Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@12a028b6
+[2020-03-10 23:28:12,759][INFO][BasicTypeRegistry] Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@7b0a71a
+[2020-03-10 23:28:12,759][INFO][BasicTypeRegistry] Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@358f950d
+[2020-03-10 23:28:12,759][INFO][BasicTypeRegistry] Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@40f45eee
+[2020-03-10 23:28:13,382][INFO][SessionFactoryObjectFactory] Not binding factory to JNDI, no JNDI name configured
+[2020-03-10 23:28:13,629][INFO][BaseRemotingController] ¼´½«Æô¶¯RemotingController...
+ÅäÖÃÎª£º
+BaseConfig [callBackExecutorPoolSize=3, callBackExecutorQueueSize=20000, dispatchMessageThreadCount=0, idleTime=10, keepAlive=true, linger=0, maxCallBackCountPerConnection=100000, maxCallBackExecutorPoolSize=30, maxReadBufferSize=0, maxScheduleWrittenBytes=1272621738, rcvBufferSize=65536, readBufferSize=131072, readThreadCount=0, reuseAddr=true, scanInvalidCallBackInterval=300, selectorPoolSize=4, sndBufferSize=65536, soLinger=true, tcpNoDelay=true, wireFormatType=metamorphosis, writeThreadCount=0]
+[2020-03-10 23:28:13,644][INFO][SelectorManager] Creating 4 rectors...
+[2020-03-10 23:28:13,663][WARN][AbstractController] The Controller started at null ...
+[2020-03-10 23:28:13,696][INFO][ZkEventThread] Starting ZkClient event thread.
+[2020-03-10 23:28:13,696][INFO][ZooKeeper] Initiating client connection, connectString=111.229.217.35:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@486fae5c
+[2020-03-10 23:28:13,698][INFO][ClientCnxn] Opening socket connection to server 111.229.217.35/111.229.217.35:2181. Will not attempt to authenticate using SASL (unknown error)
+[2020-03-10 23:28:13,753][INFO][ClientCnxn] Socket connection established to 111.229.217.35/111.229.217.35:2181, initiating session
+[2020-03-10 23:28:13,818][INFO][ClientCnxn] Session establishment complete on server 111.229.217.35/111.229.217.35:2181, sessionid = 0x170c50e763b0003, negotiated timeout = 30000
+[2020-03-10 23:28:13,819][INFO][ZkClient] zookeeper state changed (SyncConnected)
+[2020-03-10 23:28:14,317][INFO][QuartzScheduler] Quartz Scheduler v.null.null.null created.
+[2020-03-10 23:28:14,319][INFO][RAMJobStore] RAMJobStore initialized.
+[2020-03-10 23:28:14,320][INFO][StdSchedulerFactory] Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+[2020-03-10 23:28:14,320][INFO][StdSchedulerFactory] Quartz scheduler version: null.null.null
+[2020-03-10 23:28:14,322][INFO][QuartzScheduler] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@6a8925d7
+[2020-03-10 23:28:14,507][INFO][SpringTemplateLoader] SpringTemplateLoader for FreeMarker: using resource loader [WebApplicationContext for namespace 'springServlet-servlet': startup date [Tue Mar 10 23:28:02 GMT+08:00 2020]; root of context hierarchy] and template loader path [classpath:component/ftl/]
+[2020-03-10 23:28:14,508][INFO][FreeMarkerConfigurer] ClassTemplateLoader for Spring macros added to FreeMarker configuration
+[2020-03-10 23:28:14,986][INFO][DefaultLifecycleProcessor] Starting beans in phase 2147483647
+[2020-03-10 23:28:14,987][INFO][SchedulerFactoryBean] Starting Quartz Scheduler now
+[2020-03-10 23:28:14,988][INFO][QuartzScheduler] Scheduler scheduler_$_NON_CLUSTERED started.
+[2020-03-10 23:28:15,045][INFO][MetaQMessageStore] service[ctd.account.role.RoleWatcher] subscribe success:[platform.roleUpdate]
+[2020-03-10 23:28:15,052][INFO][DispatcherServlet] FrameworkServlet 'springServlet': initialization completed in 12336 ms
+[2020-03-10 23:28:15,340][INFO][DomainUtil] DB domains : [platform, epi, gp, mpi, hais, phis, chis]
+[2020-03-10 23:28:15,366][INFO][ServiceRegistry] service[platform.remoteRoleLoader] overwrited.
+[2020-03-10 23:28:15,608][INFO][ServiceRegistry] service[platform.remoteRoleLoader] online.
+[2020-03-10 23:28:15,875][INFO][ServiceRegistry] service[platform.userWatcher] overwrited.
+[2020-03-10 23:28:16,109][INFO][ServiceRegistry] service[platform.userWatcher] online.
+[2020-03-10 23:28:16,109][INFO][MetaQMessageStore] service[ctd.account.user.UserWatcher] subscribe success:[platform.userUpdate]
+[2020-03-10 23:28:16,368][INFO][ServiceRegistry] service[platform.remoteUserLoader] overwrited.
+[2020-03-10 23:28:16,605][INFO][ServiceRegistry] service[platform.remoteUserLoader] online.
+[2020-03-10 23:28:16,870][INFO][ServiceRegistry] service[platform.organWatcher] overwrited.
+[2020-03-10 23:28:16,934][INFO][MVCSessionListener] session create:38653647296BEB0F847A9DC8A1A8E913
+[2020-03-10 23:28:16,934][INFO][MVCSessionListener] session create:4D3161B43BC97899B0D10A6920D3F107
+[2020-03-10 23:28:17,080][INFO][PhotoLoader] rpc get photo service[platform.userLoader] all provider server offline.retry again later. from remote failed
+[2020-03-10 23:28:17,109][INFO][ServiceRegistry] service[platform.organWatcher] online.
+[2020-03-10 23:28:17,110][INFO][MetaQMessageStore] service[ctd.account.organ.OrganWatcher] subscribe success:[platform.organUpdate]
+[2020-03-10 23:28:17,130][WARN][ServiceConfig] service[platform.userLoader] all providers offline.
+[2020-03-10 23:28:17,212][INFO][PhotoLoader] rpc get photo service[platform.userLoader] all provider server offline.retry again later. from remote failed
+[2020-03-10 23:28:17,368][INFO][ServiceRegistry] service[platform.remoteOrganLoader] overwrited.
+[2020-03-10 23:28:17,597][INFO][ServiceRegistry] service[platform.remoteOrganLoader] online.
+[2020-03-10 23:28:17,827][INFO][ServiceRegistry] service[platform.tableDicLoader] overwrited.
+[2020-03-10 23:28:18,061][INFO][ServiceRegistry] service[platform.tableDicLoader] online.
+[2020-03-10 23:28:18,294][INFO][ServiceRegistry] service[platform.schemaWatcher] overwrited.
+[2020-03-10 23:28:18,539][INFO][ServiceRegistry] service[platform.schemaWatcher] online.
+[2020-03-10 23:28:18,539][INFO][MetaQMessageStore] service[ctd.schema.SchemaWatcher] subscribe success:[platform.schemaUpdate]
+[2020-03-10 23:28:18,784][INFO][ServiceRegistry] service[platform.remoteSchemaLoader] overwrited.
+[2020-03-10 23:28:19,067][INFO][ServiceRegistry] service[platform.remoteSchemaLoader] online.
+[2020-03-10 23:28:19,418][INFO][ServiceRegistry] service[platform.dictionaryWatcher] overwrited.
+[2020-03-10 23:28:19,671][INFO][ServiceRegistry] service[platform.dictionaryWatcher] online.
+[2020-03-10 23:28:19,671][INFO][MetaQMessageStore] service[ctd.dictionary.DictionaryWatcher] subscribe success:[platform.dictionaryUpdate]
+[2020-03-10 23:28:19,943][INFO][ServiceRegistry] service[platform.remoteDictionaryLoader] overwrited.
+[2020-03-10 23:28:20,173][INFO][ServiceRegistry] service[platform.remoteDictionaryLoader] online.
+[2020-03-10 23:28:20,482][INFO][ServiceRegistry] service[platform.applicationWatcher] overwrited.
+[2020-03-10 23:28:20,731][INFO][ServiceRegistry] service[platform.applicationWatcher] online.
+[2020-03-10 23:28:20,731][INFO][MetaQMessageStore] service[ctd.app.ApplicationWatcher] subscribe success:[platform.applicationUpdate]
+[2020-03-10 23:28:20,971][INFO][ServiceRegistry] service[platform.remoteApplicationLoader] overwrited.
+[2020-03-10 23:28:21,226][INFO][ServiceRegistry] service[platform.remoteApplicationLoader] online.
+[2020-03-10 23:28:21,467][INFO][ServiceRegistry] service[platform.categoryNodeWatcher] overwrited.
+[2020-03-10 23:28:21,703][INFO][ServiceRegistry] service[platform.categoryNodeWatcher] online.
+[2020-03-10 23:28:21,703][INFO][MetaQMessageStore] service[ctd.security.CategoryNodeWatcher] subscribe success:[platform.categoryNodeUpdate]
+[2020-03-10 23:28:21,930][INFO][ServiceRegistry] service[platform.remoteCategoryNodeLoader] overwrited.
+[2020-03-10 23:28:22,186][INFO][ServiceRegistry] service[platform.remoteCategoryNodeLoader] online.
+[2020-03-10 23:28:22,419][INFO][ServiceRegistry] service[platform.printWatcher] overwrited.
+[2020-03-10 23:28:23,207][INFO][ServiceRegistry] service[platform.printWatcher] online.
+[2020-03-10 23:28:23,207][INFO][MetaQMessageStore] service[ctd.print.PrintWatcher] subscribe success:[platform.printUpdate]
+[2020-03-10 23:28:23,447][INFO][ServiceRegistry] service[platform.remotePrintLoader] overwrited.
+[2020-03-10 23:28:23,676][INFO][ServiceRegistry] service[platform.remotePrintLoader] online.
+[2020-03-10 23:28:23,960][INFO][ServiceRegistry] service[platform.resourceLocator] overwrited.
+[2020-03-10 23:28:24,306][INFO][ServiceRegistry] service[platform.resourceLocator] online.
+[2020-03-10 23:28:24,730][INFO][ServiceRegistry] service[platform.daoService] overwrited.
+[2020-03-10 23:28:24,953][INFO][ServiceRegistry] service[platform.daoService] online.
+[2020-03-10 23:28:25,207][INFO][ServiceRegistry] service[platform.serviceProxy] overwrited.
+[2020-03-10 23:28:25,586][INFO][ServiceRegistry] service[platform.serviceProxy] online.
+[2020-03-10 23:28:25,826][INFO][ServiceRegistry] service[platform.personLoader] overwrited.
+[2020-03-10 23:28:26,107][INFO][ServiceRegistry] service[platform.personLoader] online.
+[2020-03-10 23:28:26,343][INFO][ServiceRegistry] service[platform.officeLoader] overwrited.
+[2020-03-10 23:28:26,562][INFO][ServiceRegistry] service[platform.officeLoader] online.
+[2020-03-10 23:28:26,789][INFO][ServiceRegistry] service[platform.organizationLoader] overwrited.
+[2020-03-10 23:28:27,041][INFO][ServiceRegistry] service[platform.organizationLoader] online.
+[2020-03-10 23:28:27,278][INFO][ServiceRegistry] service[platform.userLoader] overwrited.
+[2020-03-10 23:28:27,591][INFO][ServiceRegistry] service[platform.userLoader] online.
+[2020-03-10 23:28:27,591][INFO][ServiceConfig] service[platform.userLoader@172.20.10.6:8080] online.
+[2020-03-10 23:28:27,928][INFO][ServiceRegistry] service[platform.dictionaryLoader] overwrited.
+[2020-03-10 23:28:28,246][INFO][ServiceRegistry] service[platform.dictionaryLoader] online.
+[2020-03-10 23:28:28,530][INFO][ServiceRegistry] service[platform.domainLoader] overwrited.
+[2020-03-10 23:28:28,795][INFO][ServiceRegistry] service[platform.domainLoader] online.
+[2020-03-10 23:28:29,050][INFO][ServiceRegistry] service[platform.dictionaryVerifyUploader] overwrited.
+[2020-03-10 23:28:29,158][INFO][GlobalSettings] Trying to find Dozer configuration file: dozer.properties
+[2020-03-10 23:28:29,160][WARN][GlobalSettings] Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+[2020-03-10 23:28:29,161][INFO][DozerInitializer] Initializing Dozer. Version: 5.3.2, Thread Name: http-bio-8080-exec-10
+[2020-03-10 23:28:29,164][INFO][JMXPlatformImpl] Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+[2020-03-10 23:28:29,165][INFO][JMXPlatformImpl] Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+[2020-03-10 23:28:29,171][INFO][DozerBeanMapper] Initializing a new instance of dozer bean mapper.
+[2020-03-10 23:28:29,284][INFO][ServiceRegistry] service[platform.dictionaryVerifyUploader] online.
+[2020-03-10 23:28:29,547][INFO][ServiceRegistry] service[platform.monitorInfoRPCServiceImpl] overwrited.
+[2020-03-10 23:28:29,825][INFO][ServiceRegistry] service[platform.monitorInfoRPCServiceImpl] online.
+[2020-03-10 23:28:30,059][INFO][ServiceRegistry] service[platform.dataElementLoader] overwrited.
+[2020-03-10 23:28:30,307][INFO][ServiceRegistry] service[platform.dataElementLoader] online.
+[2020-03-10 23:28:30,549][INFO][ServiceRegistry] service[platform.sysMessageLoader] overwrited.
+[2020-03-10 23:28:30,790][INFO][ServiceRegistry] service[platform.sysMessageLoader] online.
+[2020-03-10 23:28:31,053][INFO][ServiceRegistry] service[platform.xmlRemoteLoader] overwrited.
+[2020-03-10 23:28:31,399][INFO][ServiceRegistry] service[platform.xmlRemoteLoader] online.
+[2020-03-10 23:28:31,632][INFO][ServiceRegistry] service[platform.fileUpload] overwrited.
+[2020-03-10 23:28:31,861][INFO][ServiceRegistry] service[platform.fileUpload] online.
+[2020-03-10 23:28:32,108][INFO][ServiceRegistry] service[platform.logonInfoLoader] overwrited.
+[2020-03-10 23:28:32,363][INFO][ServiceRegistry] service[platform.logonInfoLoader] online.
+[2020-03-10 23:28:32,621][INFO][ServiceRegistry] service[platform.empiService] overwrited.
+[2020-03-10 23:28:32,914][INFO][ServiceRegistry] service[platform.empiService] online.
+[2020-03-10 23:28:34,842][INFO][ConsumerZooKeeper] begin rebalancing consumer platform@172-20-10-6-8080_10.10.102.10-33376-1583854112920-1 try #0
+[2020-03-10 23:28:35,576][WARN][ConsumerZooKeeper] Stopping fetch runners
+[2020-03-10 23:28:35,576][WARN][ConsumerZooKeeper] Comitting all offsets
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.dictionaryUpdate
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] There are no partitions under topic platform.dictionaryUpdate
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.categoryNodeUpdate
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] There are no partitions under topic platform.categoryNodeUpdate
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.userUpdate
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] There are no partitions under topic platform.userUpdate
+[2020-03-10 23:28:35,577][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.schemaUpdate
+[2020-03-10 23:28:35,578][WARN][ConsumerZooKeeper] There are no partitions under topic platform.schemaUpdate
+[2020-03-10 23:28:35,578][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.organUpdate
+[2020-03-10 23:28:35,578][WARN][ConsumerZooKeeper] There are no partitions under topic platform.organUpdate
+[2020-03-10 23:28:35,579][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.applicationUpdate
+[2020-03-10 23:28:35,579][WARN][ConsumerZooKeeper] There are no partitions under topic platform.applicationUpdate
+[2020-03-10 23:28:35,580][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.roleUpdate
+[2020-03-10 23:28:35,580][WARN][ConsumerZooKeeper] There are no partitions under topic platform.roleUpdate
+[2020-03-10 23:28:35,581][WARN][ConsumerZooKeeper] Releasing partition ownerships for topic:platform.printUpdate
+[2020-03-10 23:28:35,581][WARN][ConsumerZooKeeper] There are no partitions under topic platform.printUpdate
+[2020-03-10 23:28:35,584][WARN][ConsumerZooKeeper] Starting fetch runners
+[2020-03-10 23:28:35,585][WARN][ConsumerZooKeeper] end rebalancing consumer platform@172-20-10-6-8080_10.10.102.10-33376-1583854112920-1 try #0
+[2020-03-10 23:28:35,586][WARN][ConsumerZooKeeper] rebalance success.
+[2020-03-10 23:28:35,586][INFO][MetaQMessageStore] sub all successed.
+[2020-03-10 23:29:11,964][INFO][ServiceConfig] service[phis.resourceLocator@172.20.10.6:8080] online.
+[2020-03-10 23:30:29,949][INFO][XmlWebApplicationContext] Closing WebApplicationContext for namespace 'springServlet-servlet': startup date [Tue Mar 10 23:28:02 GMT+08:00 2020]; root of context hierarchy
+[2020-03-10 23:30:29,968][INFO][DefaultLifecycleProcessor] Stopping beans in phase 2147483647
+[2020-03-10 23:30:29,976][INFO][QuartzScheduler] Scheduler scheduler_$_NON_CLUSTERED paused.
+[2020-03-10 23:30:29,977][INFO][DefaultListableBeanFactory] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44fe6b85: defining beans [expr_set_base,exprProcessor,topContext,staticContext,mvcAppModuleDefineLoader,mvcChartLoader,mvcDictionaryLoader,fileDownload,mvcFileUpload,mvcHTMLTemplateLoader,mvcJSONRequester,mvcLogonManager,mvcPhotoLoader,mvcPhotoUpload,mvcPrintLoader,mvcReloadAllController,mvcRESTDataLoader,mvcSchemaLoader,mvcScriptLoader,mvcSSOHtmlloader,mvcStaticResourceLoader,mvcSWFLoader,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,mvcContentNegotiationManager,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#0,org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0,org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0,org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0,org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter,org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,mvcRemoteResourceLoader,resourceCenter,dataSource,mySessionFactory,$domain-application,messageCenter,protocol@ws,roleController,roleWatcher,platform.roleWatcher,remoteRoleLoader,platform.remoteRoleLoader,userController,userWatcher,platform.userWatcher,remoteUserLoader,platform.remoteUserLoader,organController,organWatcher,platform.organWatcher,remoteOrganLoader,platform.remoteOrganLoader,tableDicLoader,platform.tableDicLoader,schemaController,schemaWatcher,platform.schemaWatcher,remoteSchemaLoader,platform.remoteSchemaLoader,dictionaryController,dictionaryWatcher,platform.dictionaryWatcher,remoteDictionaryLoader,platform.remoteDictionaryLoader,applicationController,applicationWatcher,platform.applicationWatcher,remoteApplicationLoader,platform.remoteApplicationLoader,categoryNodeController,categoryNodeWatcher,platform.categoryNodeWatcher,remoteCategoryNodeLoader,platform.remoteCategoryNodeLoader,printLocalLoader,printController,printWatcher,platform.printWatcher,remotePrintLoader,platform.remotePrintLoader,resourceLocator,platform.resourceLocator,daoService,platform.daoService,serviceProxy,platform.serviceProxy,personLoader,platform.personLoader,officeLoader,platform.officeLoader,organizationLoader,platform.organizationLoader,userLoader,platform.userLoader,dictionaryLoader,platform.dictionaryLoader,domainLoader,platform.domainLoader,dictionaryVerifyUploader,platform.dictionaryVerifyUploader,monitorInfoRPCServiceImpl,platform.monitorInfoRPCServiceImpl,dataElementLoader,platform.dataElementLoader,sysMessageLoader,platform.sysMessageLoader,xmlRemoteLoader,platform.xmlRemoteLoader,fileUpload,platform.fileUpload,logonInfoLoader,platform.logonInfoLoader,empiService,platform.empiService,ctd.sequence.KeyManager#0,platform.organizationService,platform.roleConfig,platform.personnelService,platform.appConfig,platform.manageService,platform.organizTypeService,platform.userPropService,platform.userService,platform.domainConfig,platform.dicConfig,platform.schemaConfig,monitorRpcUpload,monInfoJobDetailBean,monInfoTrigger,scheduler,schedulerExecutor,freeMarkerConfigurer,ctd.domain.DomainUtil#0,defaultExecutor,hibernateSupportExecutor,executorFactory,dataElementDao,areaDao,daoFactory,simpleSave,simpleLoad,simpleLoadWithParentRelation,simpleRemove,simpleQuery,platform.simpleSave,platform.simpleLoad,platform.simpleLoadWithParentRelation,platform.simpleRemove,platform.simpleQuery,simpleReport,reportSchemaLoader,dataStandardSave,dataStandardRemove,platform.dataSetElementLoad,platform.dataElementLoad,platform.elementAndGroupQuery,dataSetCatalogSave,downloadDataSetZip,searchSet,dictionaryVerify,platform.parseExcel,platform.qualityData,message,activeNodeQuery,monInfo,sqlAndSerInfo,dictionaryUtil,welcomeService,quickService,settingService,tableDicRemoter,PlatformAspectLogon,metaqMessageSessionFactory,metaMessageBodyConverter,metaqTemplate,metaMessageStore,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+[2020-03-10 23:30:30,015][INFO][SchedulerFactoryBean] Shutting down Quartz Scheduler
+[2020-03-10 23:30:30,016][INFO][QuartzScheduler] Scheduler scheduler_$_NON_CLUSTERED shutting down.
+[2020-03-10 23:30:30,016][INFO][QuartzScheduler] Scheduler scheduler_$_NON_CLUSTERED paused.
+[2020-03-10 23:30:30,022][INFO][QuartzScheduler] Scheduler scheduler_$_NON_CLUSTERED shutdown complete.
+[2020-03-10 23:30:30,415][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/consumers/platform@172-20-10-6-8080/ids
+[2020-03-10 23:30:30,415][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.roleUpdate
+[2020-03-10 23:30:30,415][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.dictionaryUpdate
+[2020-03-10 23:30:30,415][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.organUpdate
+[2020-03-10 23:30:30,416][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.schemaUpdate
+[2020-03-10 23:30:30,416][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.printUpdate
+[2020-03-10 23:30:30,416][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.userUpdate
+[2020-03-10 23:30:30,416][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.applicationUpdate
+[2020-03-10 23:30:30,416][INFO][ConsumerZooKeeper] unsubscribeChildChanges:/meta/brokers/topics-sub/platform.categoryNodeUpdate
+[2020-03-10 23:30:30,480][INFO][AbstractController] Controller has been stopped.
+[2020-03-10 23:30:30,483][INFO][ZkEventThread] Terminate ZkClient event thread.
+[2020-03-10 23:30:30,607][INFO][ClientCnxn] EventThread shut down
+[2020-03-10 23:30:30,607][INFO][ZooKeeper] Session: 0x170c50e763b0003 closed
+[2020-03-10 23:30:30,608][INFO][LocalSessionFactoryBean] Closing Hibernate SessionFactory
+[2020-03-10 23:30:30,609][INFO][SessionFactoryImpl] closing
+[2020-03-10 23:30:30,758][INFO][DruidDataSource] {dataSource-1} closed

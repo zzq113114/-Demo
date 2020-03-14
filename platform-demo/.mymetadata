@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ssdev-platform"
+  id="myeclipse.1383038425453"
+  context-root="/platform"
+  j2ee-spec="6.0"
+  archive="ssdev-platform.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

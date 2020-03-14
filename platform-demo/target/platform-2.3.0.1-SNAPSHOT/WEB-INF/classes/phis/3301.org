@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<organ id="3301" name="杭州市卫生局" type="R" ref="3301" pyCode="hzswsj">
+	<properties>
+		<p name="appwelcome">false</p>
+		<p name="tabRemove">false</p>
+		<p name="sysMessage">true</p>
+		<!-- 配置首页消息系统是否启用 -->
+		<p name="instantExtractMSG">false</p>
+		<!-- 配置首页消息系统是否即时提取消息 -->
+		<p name="myDesktop">phis.script.MyDesktop</p>
+	</properties>
+	<installedApps>
+		<app id="phis.application.eg.EG"/>
+		<app id="phis.application.cnd.CND"/>
+		<app id="phis.application.evt.EVT"/>
+		<app id="phis.application.sys.SYS"/>
+	</installedApps>
+	<unit id="330101" name="江干区卫生局" pyCode="jgqwsj" type="S" ref="330103">
+		<!--<unit id="330101001" name="闸弄口卫生服务中心" pyCode="znkwsfwzx" type="B" ref="33010301"/>-->
+		<unit id="330101001" name="湖墅卫生服务中心" pyCode="hswsfwzx" type="B" ref="33010201"/>
+
+	</unit>
+	<unit id="330102" name="拱墅区卫生局" pyCode="gsqwsj" type="S" ref="330104">
+		<!--<unit id="330102001" name="半山社区服务中心" pyCode="bssqfwzx" type="B" ref="33010401"/> -->
+		<!--<unit id="330101001" name="湖墅卫生服务中心" pyCode="hswsfwzx" type="B" ref="33010201"/>-->
+	</unit>
+	<unit id="330103" name="上城区卫生局" pyCode="scqwsj" type="S" ref="330101">
+		<unit id="330103001" name="杭州市一医院" pyCode="hzsyyy" type="D" ref="33010101"/>
+	</unit>
+	<unit id="330104" name="下城区卫生局" pyCode="xcqwsj" type="S" ref="330102">
+		<unit id="330104001" name="湖墅卫生服务中心" pyCode="hswsfwzx" type="B" ref="33010201"/>
+	</unit>
+</organ>

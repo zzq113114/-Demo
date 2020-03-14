@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<organ id="4402" name="韶关市卫生局" type="R" ref="4402" pyCode="sgswsj"> 
+  <properties> 
+    <!-- 配置首页消息系统是否启用 --> 
+    <!-- 配置首页消息系统是否即时提取消息 -->  
+    <p name="myDesktop"><![CDATA[phis.script.MyDesktop]]></p>  
+    <p name="appwelcome"><![CDATA[false]]></p>  
+    <p name="tabRemove"><![CDATA[false]]></p>  
+    <p name="sysMessage"><![CDATA[true]]></p>  
+    <p name="instantExtractMSG"><![CDATA[false]]></p> 
+  </properties>  
+  <installedApps> 
+  	<app id="phis.application.eg.EG"/>
+    <app id="phis.application.cnd.CND"/>
+    <app id="phis.application.evt.EVT"/>
+    <app id="phis.application.sys.SYS"/> 
+  </installedApps>  
+  <unit id="440204" name="浈江区卫生和计划生育局" pyCode="zjqwsj" type="S" ref="440204"> 
+    <unit id="440204001" name="十里亭镇卫生院" pyCode="sltzwsy" type="B" ref="440204001"/>  
+    <unit id="440204002" name="犁市镇中心卫生院" pyCode="lszzxwsy" type="B" ref="440204002"/>  
+    <unit id="440204003" name="车站社区卫生服务中心" pyCode="czsqwsfwzx" type="B" ref="440204003"/>  
+    <unit id="440204004" name="东河社区卫生服务中心" pyCode="dhsqwsfwzx" type="B" ref="440204004"/>  
+    <unit id="440204005" name="韶关市浈江区风采社区卫生服务中心" pyCode="sgszjqfcsqwsfwzx" type="B" ref="440204005"/>  
+    <unit id="440204006" name="花坪镇卫生院" pyCode="hpzwsy" type="B" ref="440204006"/>  
+    <unit id="440204007" name="花坪镇卫生院曲仁分院" pyCode="hpzwsyqrfy" type="B" ref="440204007"/>  
+    <unit id="440204008" name="花坪镇卫生院茶山分院" pyCode="hpzwsycsfy" type="B" ref="440204008"/>  
+    <unit id="440204009" name="花坪镇卫生院格顶分院" pyCode="hpzwsygdfy" type="B" ref="440204009"/>  
+    <unit id="440204010" name="新韶镇卫生院" pyCode="xszwsy" type="B" ref="440204010"/>  
+    <unit id="440204011" name="测试社区" pyCode="cssq" type="B" ref="440204011"/> 
+  </unit>  
+  <unit id="440203" name="武江区卫生和计划生育局" pyCode="wjqwsj" type="S" ref="440203"/> 
+</organ>
